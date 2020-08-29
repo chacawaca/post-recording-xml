@@ -107,7 +107,7 @@ copy your GPU UUID to NVIDIA_VISIBLE_DEVICES</Description>
   <Config Name="CONFIG FOLDER" Target="/config" Default="/mnt/user/appdata/post-recording" Mode="rw" Description="Configuration folder /config" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="WATCH FOLDER" Target="/watch" Default="" Mode="rw" Description="This location contains .ts files that need converting /watch" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="BACKUP FOLDER" Target="/backup" Default="" Mode="rw" Description="Optional, only used if DELETE_TS is set to 2  /backup" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="DELETE_TS" Target="DELETE_TS" Default="1" Mode="" Description="Remove the original .ts recording file. 1 = no, 0 = yes" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
+  <Config Name="DELETE_TS" Target="DELETE_TS" Default="1" Mode="" Description="Remove the original .ts recording file. 0 = Yes, 1 = No, 2 = Move to backup directory" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
   <Config Name="SUBTITLES" Target="SUBTITLES" Default="0" Mode="" Description="Extract subtitles to .srt. 0= Yes, 1 = No" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="CONVERSION_FORMAT" Target="CONVERSION_FORMAT" Default="mkv" Mode="" Description="mkv or mp4" Type="Variable" Display="always" Required="false" Mask="false">mkv</Config>
   <Config Name="SOURCE_EXT" Target="SOURCE_EXT" Default="ts" Mode="" Description="Source file extension, default .ts" Type="Variable" Display="always" Required="false" Mask="false">ts</Config>
