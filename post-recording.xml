@@ -16,7 +16,7 @@ Using the Unraid Nvidia Plugin to install a version of Unraid with the Nvidia Dr
 add --runtime=nvidia to "extra parameters" (switch on advanced view) and&#xD;
 copy your GPU UUID to NVIDIA_VISIBLE_DEVICES&#xD;
   &#xD;
-  --------New Variable added verify your old custom.sh--------</Overview>
+  --------New Variable added --- verify your old custom.sh--------</Overview>
   <Beta>False</Beta>
   <Category>MediaApp:Video</Category>
   <Date>2020-08-24</Date>
